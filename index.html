@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio page</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <div class="navigation">
+    <header>
+        <a href="#" class="Logo" style=" letter-spacing: 2px;">Welcome</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-skills">My Skills</a></li>
+                <li><a href="#edu-back">My Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+
+    </header>
+</div>
+    <script src = "https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+
+        })
+    </script>
+    <div class="top-container">
+
+        <h1>Kumar Gaurav</h1>
+
+        <p>Designer and Web Developer</p>
+
+        <img style="width: 50%;" class="mountain" src="first-vector-graphics.svg" alt="mountain">
+
+    </div>
+
+
+    <div class="middle-container">
+        <div class="profile">
+            <h2 id="about-me">About Me</h2>
+            <img src="profilepic.jpg " alt="Nature" class="responsive">
+
+
+            <p> I am Kumar Gaurav, a first year undergraduate student at <strong>IIT KHARAGPUR </strong> . I
+                am a
+                student of <strong>Geology and Geophysics</strong>
+                department ,enrolled in its integrated MSc(5 years) course in <strong>Exploration
+                    Geophysics.</strong>
+            </p>
+        </div>
+
+
+
+        <div class="skills">
+            <h2 id="my-skills">My Skills</h2>
+
+            <div class="skill-row">
+
+                <img style="width:30%;" class="Design" src="2nd-vector.svg" alt="Design Development">
+                <h2> Design & Development</h2>
+                <p>I started learning Web Development at the beginning of my first semester.I have recieved an LOR in Web Development from My Captain The Climber.
+                    Web development is the work involved in developing a Web site for the Internet or an intranet.
+                </p>
+
+                <div class="skill-row">
+                    <img style="width: 30%;" class="ethical-hacking" src="3rd-vector.svg" alt="Ethical Hacking">
+                    <h2>Ethical Hacking</h2>
+                    <p>Few years back I was quite enthusiastic in learing about cyber security and hacking but gradually lost touch on it.I had also taken up a course on Ethical Hacking.I am not an expert though but know a few basics. </p>
+
+                </div>
+                <div class="skill-row">
+                    <img style="width: 30%;" class="App Development" src="4th-vector.svg" alt="App Development">
+                    <h2>App Development</h2>
+                    <p>I was passionate about Android App Development using Android Studio a few years back.I am now trying to learn it. Again ,I am not an expert but know some basics.
+                    </p>
+                </div>
+                <div class="skill-row">
+                    <img style="width: 30%;" class="Animation" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhD5BaF__6ESQdXH5BkM9M4k7rGh_iDi1k2A&usqp=CAU" alt="Animation">
+
+                    <h2>Design</h2>
+                    <p>I like making logos using Adobe Illustrator.I am still learning to use Adobe Photoshop for poster making and will also try a hand on Adobe Premier Pro for video editing</p>
+                </div>
+
+                <div class="education">
+                    <h2 id="edu-back">My Education</h2>
+                    <ul>
+                        <li class="edu">I completed my elementary education from St.Xavier's School,Sahibganj.</li>
+                        <li class="edu">I prepared for JEE at Resonance Delhi .</li>
+                        <li class="edu">I am currently pursuing Integrated MSc course at IIT KHARAGPUR .</li>
+
+                    </ul>
+                </div>
+
+
+
+
+
+                <div class="CONTACT">
+                    <h2>Get in Touch</h2>
+                    <p>For any doubts ping me using my contacts below .</p>
+                    <a class="BUTTON_BKY" href="mail-to:kumargaurav5555555555@gmail.com" id="contact">CONTACT ME</a>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/in/kumar-gaurav-879296207/"
+                    target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                <a class="footer-link" href="#" target="_blank"><i
+                        class="fa fa-twitter"></i>Twitter</a>
+                <a class="footer-link" href="https://www.youtube.com/channel/UCEzs-Eb9g192R8EITZtTeYg/featured"
+                    target="_blank"><i class="fa fa-youtube-play"></i>Youtube</a>
+                <a class="footer-link" href="https://www.facebook.com/profile.php?id=100005182590664" target="_blank"><i
+                        class="fa fa-facebook-official"></i>Facebook</a>
+                <a class="footer-link" href="https://www.instagram.com/kumar.gaurav.kgpian"
+                    target="_blank"><i class="fa fa-instagram"></i>Instagram</a>
+                <a class="footer-link" href="#" target="_blank"><i
+                        class="fa fa-github" ></i>Github</a>
+                <p>Copyright © Kumar Gaurav 2021. All Rights Reserved.</p>
+                <p>Made With ♥ in India</p>
+            </div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
